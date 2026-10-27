@@ -1,0 +1,1952 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-26",
+  "categories": [
+    {
+      "id": "chat",
+      "title": "Chat & Writing",
+      "emoji": "💬",
+      "subcategories": [
+        "General Assistants",
+        "Writing & Editing",
+        "Translation",
+        "Iranian Alternatives"
+      ]
+    },
+    {
+      "id": "image",
+      "title": "Image",
+      "emoji": "🎨",
+      "subcategories": [
+        "Generate",
+        "Edit & Utility",
+        "Logo & Vector"
+      ]
+    },
+    {
+      "id": "video",
+      "title": "Video",
+      "emoji": "🎬",
+      "subcategories": [
+        "Generate",
+        "Avatar & Talking",
+        "Edit & Subtitles"
+      ]
+    },
+    {
+      "id": "audio",
+      "title": "Audio & Music",
+      "emoji": "🎵",
+      "subcategories": [
+        "Music",
+        "Voice & TTS",
+        "Speech to Text",
+        "Audio Cleanup"
+      ]
+    },
+    {
+      "id": "code",
+      "title": "Code & Dev",
+      "emoji": "💻",
+      "subcategories": [
+        "Editors & Assistants",
+        "Coding Agents",
+        "App & Website Builders",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "productivity",
+      "title": "Productivity & Business",
+      "emoji": "📊",
+      "subcategories": [
+        "Presentations & Docs",
+        "Meetings & Notes",
+        "Automation",
+        "Calendar & Email",
+        "PDF & Documents"
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research & Learning",
+      "emoji": "🔬",
+      "subcategories": [
+        "Web Research",
+        "Academic",
+        "Study Documents",
+        "Learning & Languages"
+      ]
+    },
+    {
+      "id": "design",
+      "title": "Design & 3D",
+      "emoji": "🧊",
+      "subcategories": [
+        "3D Generation",
+        "Architecture & Interior",
+        "Graphic & UI"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "description": "All-round assistant with the widest feature set and custom GPTs.",
+      "url": "https://chatgpt.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        },
+        {
+          "category": "image",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "signup": "Phone needed"
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "description": "Google's assistant with search, image generation and Workspace integration.",
+      "url": "https://gemini.google.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        },
+        {
+          "category": "image",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "description": "Assistant for writing, long documents and coding, made by Anthropic.",
+      "url": "https://claude.ai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "signup": "Phone needed"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "description": "Free assistant with open-weight models.",
+      "url": "https://chat.deepseek.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "description": "Assistant built into Windows and Microsoft apps.",
+      "url": "https://copilot.microsoft.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "description": "Assistant with real-time access to X and the web.",
+      "url": "https://grok.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "mistral-le-chat",
+      "name": "Mistral Le Chat",
+      "description": "European assistant with a privacy-first focus.",
+      "url": "https://chat.mistral.ai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "description": "Assistant inside WhatsApp, Instagram and Facebook.",
+      "url": "https://www.meta.ai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "General Assistants"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "description": "Grammar, tone and clarity fixes for English writing.",
+      "url": "https://www.grammarly.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Writing & Editing"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "description": "Paraphrasing and summarizing tool.",
+      "url": "https://quillbot.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Writing & Editing"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "description": "Write, summarize and organize inside Notion.",
+      "url": "https://www.notion.com/product/ai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Writing & Editing"
+        },
+        {
+          "category": "productivity",
+          "sub": "Presentations & Docs"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "description": "Natural-sounding translation, strong for European languages.",
+      "url": "https://www.deepl.com/translator",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Translation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Translate",
+      "description": "Wide language coverage including Persian.",
+      "url": "https://translate.google.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Translation"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "gapgpt",
+      "name": "GapGPT",
+      "description": "Persian access to GPT, Claude and Gemini models with Rial payment.",
+      "url": "https://gapgpt.app",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Iranian Alternatives"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Yes",
+      "verified": false,
+      "type": "Gateway",
+      "payment": "Rial",
+      "note": "Gateway service: conversations pass through a third party. Claims are the service's own."
+    },
+    {
+      "id": "hoosha",
+      "name": "Hoosha",
+      "description": "Persian ChatGPT-style service with Rial payment and installments.",
+      "url": "https://hoosha.com",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Iranian Alternatives"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Yes",
+      "verified": false,
+      "type": "Gateway",
+      "payment": "Rial",
+      "note": "Gateway service: conversations pass through a third party. Claims are the service's own."
+    },
+    {
+      "id": "vira",
+      "name": "Vira",
+      "description": "Persian chatbot that says it runs its own models.",
+      "url": "https://ivira.ai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Iranian Alternatives"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Yes",
+      "verified": false,
+      "type": "Native",
+      "note": "Native-model claim is the service's own and is not independently verified."
+    },
+    {
+      "id": "hooshang",
+      "name": "Hooshang",
+      "description": "Free Persian chat assistant.",
+      "url": "https://hooshang.ai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Iranian Alternatives"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Yes",
+      "verified": false,
+      "note": "Service type not confirmed. Conversations may pass through a third party."
+    },
+    {
+      "id": "roboo",
+      "name": "Roboo",
+      "description": "Persian app for text and voice chat, images and video.",
+      "url": "https://roboo.ir",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Iranian Alternatives"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Yes",
+      "verified": false,
+      "type": "Gateway",
+      "payment": "Rial",
+      "note": "Gateway service: conversations pass through a third party. Claims are the service's own."
+    },
+    {
+      "id": "pishkarbot",
+      "name": "Pishkarbot",
+      "description": "Persian Android app for chat, image creation and editing.",
+      "url": "https://cafebazaar.ir/app/com.eletej.chatbotai",
+      "categories": [
+        {
+          "category": "chat",
+          "sub": "Iranian Alternatives"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Yes",
+      "verified": false,
+      "type": "Gateway",
+      "note": "Listed on Cafe Bazaar. Gateway service: conversations pass through a third party."
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "description": "Best-known tool for artistic, stylized images.",
+      "url": "https://www.midjourney.com",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Generate"
+        },
+        {
+          "category": "design",
+          "sub": "Architecture & Interior"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Artistic concepts"
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo AI",
+      "description": "Strong style control, popular for game assets and characters.",
+      "url": "https://leonardo.ai",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Game assets and characters"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "description": "Best-in-class text rendering inside images.",
+      "url": "https://ideogram.ai",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Posters and text in images"
+    },
+    {
+      "id": "flux-black-forest-labs",
+      "name": "FLUX (Black Forest Labs)",
+      "description": "Photorealistic models with open-weight releases.",
+      "url": "https://blackforestlabs.ai",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Photorealism"
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "description": "Image generation designed for commercial use.",
+      "url": "https://firefly.adobe.com",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Generate"
+        },
+        {
+          "category": "design",
+          "sub": "Graphic & UI"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Commercial-safe images"
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "description": "Real-time image generation and editing.",
+      "url": "https://www.krea.ai",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "canva-magic-studio",
+      "name": "Canva Magic Studio",
+      "description": "AI image tools inside the Canva editor.",
+      "url": "https://www.canva.com",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Edit & Utility"
+        },
+        {
+          "category": "design",
+          "sub": "Graphic & UI"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "remove-bg",
+      "name": "Remove.bg",
+      "description": "One-click background removal.",
+      "url": "https://www.remove.bg",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Edit & Utility"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "upscayl",
+      "name": "Upscayl",
+      "description": "Free offline image upscaler for your computer.",
+      "url": "https://upscayl.org",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Edit & Utility"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Desktop app: runs offline once installed. Details not yet researched."
+    },
+    {
+      "id": "magnific",
+      "name": "Magnific",
+      "description": "Upscaling that adds fine detail.",
+      "url": "https://magnific.ai",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Edit & Utility"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "description": "Vector output suited to logos and icons.",
+      "url": "https://www.recraft.ai",
+      "categories": [
+        {
+          "category": "image",
+          "sub": "Logo & Vector"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Logos and icons",
+      "commercial_use_on_free": false
+    },
+    {
+      "id": "google-veo",
+      "name": "Google Veo",
+      "description": "Realistic video with native audio, inside Gemini and Flow.",
+      "url": "https://deepmind.google/models/veo/",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Included in Google plans."
+    },
+    {
+      "id": "kling-ai",
+      "name": "Kling AI",
+      "description": "Strong value and high-motion scenes.",
+      "url": "https://klingai.com",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "free_tier_type": "Daily refill"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "description": "Hands-on control for filmmakers and editors.",
+      "url": "https://runwayml.com",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "free_tier_type": "One-time credits"
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "description": "Cinematic image-to-video.",
+      "url": "https://lumalabs.ai/dream-machine",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "description": "Quick short clips and trending effects.",
+      "url": "https://pika.art",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "watermark_on_free": true
+    },
+    {
+      "id": "pixverse",
+      "name": "PixVerse",
+      "description": "Daily free credits for easy testing.",
+      "url": "https://pixverse.ai",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "free_tier_type": "Daily refill"
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "description": "ByteDance video model with low entry pricing.",
+      "url": "https://seed.bytedance.com/en/seedance",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Generate"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "description": "Talking avatars with lip-sync, plus video translation and dubbing.",
+      "url": "https://www.heygen.com",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Avatar & Talking"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "description": "Avatar videos for training and corporate use.",
+      "url": "https://www.synthesia.io",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Avatar & Talking"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "description": "Popular editor with auto-captions and AI effects.",
+      "url": "https://www.capcut.com",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Edit & Subtitles"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "veed",
+      "name": "VEED",
+      "description": "Online editor with subtitles and AI tools.",
+      "url": "https://www.veed.io",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Edit & Subtitles"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "description": "Edit video by editing its transcript.",
+      "url": "https://www.descript.com",
+      "categories": [
+        {
+          "category": "video",
+          "sub": "Edit & Subtitles"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "description": "Writes lyrics, sings them and produces full songs.",
+      "url": "https://suno.com",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "free_tier_type": "Daily refill",
+      "commercial_use_on_free": false
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "description": "Strong vocals and fine-grained controls.",
+      "url": "https://www.udio.com",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "free_tier_type": "Daily refill",
+      "commercial_use_on_free": false
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "Realistic voices, voice cloning, dubbing and licensed music.",
+      "url": "https://elevenlabs.io",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Voice & TTS"
+        },
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Voice and cleared music",
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "google-lyria",
+      "name": "Google Lyria",
+      "description": "Music generation inside Gemini.",
+      "url": "https://deepmind.google/models/lyria/",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "aiva",
+      "name": "AIVA",
+      "description": "Cinematic and classical-style composition.",
+      "url": "https://www.aiva.ai",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "commercial_use_on_free": false
+    },
+    {
+      "id": "soundraw",
+      "name": "Soundraw",
+      "description": "Royalty-free background music for video.",
+      "url": "https://soundraw.io",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "free_tier_type": "None"
+    },
+    {
+      "id": "mubert",
+      "name": "Mubert",
+      "description": "Continuous royalty-free music for streams and content.",
+      "url": "https://mubert.com",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Music"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "murf-ai",
+      "name": "Murf AI",
+      "description": "Studio voiceovers for presentations and video.",
+      "url": "https://murf.ai",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Voice & TTS"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "whisper-openai",
+      "name": "Whisper (OpenAI)",
+      "description": "Open-source speech recognition that runs offline.",
+      "url": "https://openai.com/index/whisper/",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Speech to Text"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Partial",
+      "verified": false,
+      "note": "Open-source: you run it yourself. Details not yet researched."
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "description": "Meeting transcription and automatic summaries.",
+      "url": "https://otter.ai",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Speech to Text"
+        },
+        {
+          "category": "productivity",
+          "sub": "Meetings & Notes"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "adobe-podcast-enhance",
+      "name": "Adobe Podcast Enhance",
+      "description": "Cleans up and sharpens recorded speech.",
+      "url": "https://podcast.adobe.com",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Audio Cleanup"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "moises",
+      "name": "Moises",
+      "description": "Separates vocals and instruments from songs.",
+      "url": "https://moises.ai",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Audio Cleanup"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "lalal-ai",
+      "name": "LALAL.AI",
+      "description": "Vocal separation and noise removal.",
+      "url": "https://www.lalal.ai",
+      "categories": [
+        {
+          "category": "audio",
+          "sub": "Audio Cleanup"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "description": "VS Code-based editor with a built-in agent.",
+      "url": "https://cursor.com",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Editors & Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "description": "Most widely used coding assistant, works in every major IDE.",
+      "url": "https://github.com/features/copilot",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Editors & Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "description": "Cursor-like AI editor with JetBrains support.",
+      "url": "https://windsurf.com",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Editors & Assistants"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Owned by Cognition; the product's future is unclear."
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "description": "Terminal coding agent for large, multi-file projects, made by Anthropic.",
+      "url": "https://claude.com/product/claude-code",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Coding Agents"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex",
+      "description": "OpenAI's coding agent.",
+      "url": "https://openai.com/codex",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Coding Agents"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "description": "Build a full web app by chatting.",
+      "url": "https://lovable.dev",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "App & Website Builders"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Non-programmers"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "description": "Code, build and publish apps in the browser.",
+      "url": "https://replit.com",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "App & Website Builders"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Non-programmers"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "description": "Prompt-to-app builder in the browser.",
+      "url": "https://bolt.new",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "App & Website Builders"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "v0-by-vercel",
+      "name": "v0 by Vercel",
+      "description": "Generates UI and components from prompts.",
+      "url": "https://v0.dev",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "App & Website Builders"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "description": "Open-source VS Code agent; you connect your own model.",
+      "url": "https://cline.bot",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Open Source"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Access depends on the model you connect."
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "description": "Open-source terminal pair-programming assistant.",
+      "url": "https://aider.chat",
+      "categories": [
+        {
+          "category": "code",
+          "sub": "Open Source"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Access depends on the model you connect. Details not yet researched."
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "description": "Turns a prompt into slides, docs or a web page.",
+      "url": "https://gamma.app",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Presentations & Docs"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "description": "Slides with automatic, clean design.",
+      "url": "https://www.beautiful.ai",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Presentations & Docs"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "slidesai",
+      "name": "SlidesAI",
+      "description": "Creates slides inside Google Slides and PowerPoint.",
+      "url": "https://www.slidesai.io",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Presentations & Docs"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "description": "Meeting recording, transcripts and summaries.",
+      "url": "https://fathom.video",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Meetings & Notes"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "description": "Meeting notes with speaker detection and search.",
+      "url": "https://fireflies.ai",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Meetings & Notes"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "description": "Connect thousands of apps without code.",
+      "url": "https://zapier.com",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Automation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "description": "Open-source automation you can host yourself.",
+      "url": "https://n8n.io",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Automation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Open",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Self-hosted version runs on your own server."
+    },
+    {
+      "id": "motion",
+      "name": "Motion",
+      "description": "Automatically schedules your tasks on your calendar.",
+      "url": "https://www.usemotion.com",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Calendar & Email"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "reclaim-ai",
+      "name": "Reclaim AI",
+      "description": "Calendar optimization and focus time.",
+      "url": "https://reclaim.ai",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Calendar & Email"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "description": "Fast email with AI writing and summaries.",
+      "url": "https://superhuman.com",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "Calendar & Email"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "pdf-ai",
+      "name": "PDF.ai",
+      "description": "Chat with any PDF.",
+      "url": "https://pdf.ai",
+      "categories": [
+        {
+          "category": "productivity",
+          "sub": "PDF & Documents"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "description": "Fast, cited answers from the web.",
+      "url": "https://www.perplexity.ai",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Web Research"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Does not search closed academic databases."
+    },
+    {
+      "id": "gemini-deep-research",
+      "name": "Gemini Deep Research",
+      "description": "Multi-source research reports inside Gemini.",
+      "url": "https://gemini.google/overview/deep-research/",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Web Research"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "description": "Literature reviews and data extraction from papers.",
+      "url": "https://elicit.com",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Academic"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Cites real papers"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "description": "Answers science questions from peer-reviewed papers.",
+      "url": "https://consensus.app",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Academic"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Cites real papers"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "description": "Search engine for scientific papers.",
+      "url": "https://www.semanticscholar.org",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Academic"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "description": "Read and understand complex papers.",
+      "url": "https://scispace.com",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Academic"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "scite",
+      "name": "Scite",
+      "description": "Shows how later papers cite a study.",
+      "url": "https://scite.ai",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Academic"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "description": "Chat with and summarize your own sources, with audio overviews.",
+      "url": "https://notebooklm.google.com",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Study Documents"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Studying your own files"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "description": "Game-style language learning.",
+      "url": "https://www.duolingo.com",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Learning & Languages"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "speak",
+      "name": "Speak",
+      "description": "Practice speaking with an AI tutor.",
+      "url": "https://www.speak.com",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Learning & Languages"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "khanmigo",
+      "name": "Khanmigo",
+      "description": "AI tutor from Khan Academy.",
+      "url": "https://www.khanmigo.ai",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Learning & Languages"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "photomath",
+      "name": "Photomath",
+      "description": "Step-by-step math explanations.",
+      "url": "https://photomath.com",
+      "categories": [
+        {
+          "category": "research",
+          "sub": "Learning & Languages"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "meshy",
+      "name": "Meshy",
+      "description": "Most well-rounded text/image-to-3D generator with texturing and rigging.",
+      "url": "https://www.meshy.ai",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "3D Generation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "tripo-ai",
+      "name": "Tripo AI",
+      "description": "Fast generation, good for game assets and 3D printing.",
+      "url": "https://www.tripo3d.ai",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "3D Generation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "hunyuan-3d",
+      "name": "Hunyuan 3D",
+      "description": "Tencent's 3D generator with open weights.",
+      "url": "https://3d.hunyuan.tencent.com",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "3D Generation"
+        }
+      ],
+      "pricing": "Free",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "description": "Interactive 3D design for the web.",
+      "url": "https://spline.design",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "3D Generation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "best_for": "Interactive 3D for web"
+    },
+    {
+      "id": "rodin-hyper3d",
+      "name": "Rodin (Hyper3D)",
+      "description": "Realistic models, especially human characters.",
+      "url": "https://hyper3d.ai",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "3D Generation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "luma-ai",
+      "name": "Luma AI",
+      "description": "Turns video and photos into 3D scenes.",
+      "url": "https://lumalabs.ai",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "3D Generation"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "3d-ai-studio",
+      "name": "3D AI Studio",
+      "description": "Generates furniture and scene assets for Blender and SketchUp.",
+      "url": "https://www.3daistudio.com",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Architecture & Interior"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "veras",
+      "name": "Veras",
+      "description": "AI rendering from an existing 3D model.",
+      "url": "https://www.evolvelab.io/veras",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Architecture & Interior"
+        }
+      ],
+      "pricing": "Paid",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "d5-render",
+      "name": "D5 Render",
+      "description": "Real-time rendering for architecture.",
+      "url": "https://www.d5render.com",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Architecture & Interior"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false
+    },
+    {
+      "id": "roomgpt",
+      "name": "RoomGPT",
+      "description": "Redesign a room from a photo.",
+      "url": "https://www.roomgpt.io",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Architecture & Interior"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "planner-5d",
+      "name": "Planner 5D",
+      "description": "Floor plans and interior design with AI.",
+      "url": "https://planner5d.com",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Architecture & Interior"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "Varies",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "description": "Interface design with AI features.",
+      "url": "https://www.figma.com",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Graphic & UI"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "adobe-express",
+      "name": "Adobe Express",
+      "description": "Quick posters and social posts.",
+      "url": "https://www.adobe.com/express",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Graphic & UI"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    },
+    {
+      "id": "uizard",
+      "name": "Uizard",
+      "description": "Turns sketches and text into app designs.",
+      "url": "https://uizard.io",
+      "categories": [
+        {
+          "category": "design",
+          "sub": "Graphic & UI"
+        }
+      ],
+      "pricing": "Freemium",
+      "iran_access": "Unverified",
+      "iran_access_guess": "VPN",
+      "persian_support": "Unverified",
+      "verified": false,
+      "note": "Details not yet researched."
+    }
+  ]
+}
