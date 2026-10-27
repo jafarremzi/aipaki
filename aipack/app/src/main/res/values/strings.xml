@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AIPack</string>
+    <string name="tagline">All AI in one app</string>
+    <string name="search_hint">Search tools, e.g. logo or music</string>
+    <string name="categories_title">Categories</string>
+    <string name="tools_count">%1$d tools</string>
+    <string name="results_title">Results</string>
+    <string name="no_results">No tools match. Try another word or clear the filters.</string>
+    <string name="load_error">Could not load the tools list.</string>
+    <string name="no_browser">No browser found to open this link.</string>
+    <string name="back">Back</string>
+    <string name="about">About</string>
+    <string name="filter_free">Free</string>
+    <string name="filter_freemium">Freemium</string>
+    <string name="filter_paid">Paid</string>
+    <string name="filter_open">Open in Iran</string>
+    <string name="filter_vpn">VPN</string>
+    <string name="filter_varies">Varies</string>
+    <string name="filter_persian">Persian</string>
+    <string name="about_title">About AIPack</string>
+    <string name="about_updated">List last updated: %1$s</string>
+    <string name="about_intro">AIPack is a directory of AI tools. Tap a tool to open its website in your browser.</string>
+    <string name="about_access_title">About the Iran access label</string>
+    <string name="about_access_body">Most labels are estimates and have not been tested from inside Iran yet. They are shown as est. Access can change at any time and depends on your network and provider.</string>
+    <string name="about_gateway_title">Iranian alternatives</string>
+    <string name="about_gateway_body">Some Iranian services are gateways: they resell access to foreign models, so your conversations pass through a third party. Their claims are their own and are not independently verified.</string>
+    <string name="about_outdated_title">Information can be out of date</string>
+    <string name="about_outdated_body">Prices, free limits and availability change often. Check the tool\'s own website before you rely on a plan. Tools are not ranked, and the order is not a recommendation.</string>
+</resources>
