@@ -13,9 +13,9 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        // PLACEHOLDER: change to your own id (e.g. io.github.<username>.aipack)
-        // BEFORE the first public release. It cannot be changed afterwards.
-        applicationId = "com.aipack.app"
+        // Unique app id for the stores. It CANNOT be changed after publishing.
+        // (namespace above stays com.aipack.app, so no code has to move.)
+        applicationId = "io.github.jafarremzi.aipack"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -29,6 +29,9 @@ android {
                 storePassword = System.getenv("KEYSTORE_PASSWORD")
                 keyAlias = System.getenv("KEY_ALIAS")
                 keyPassword = System.getenv("KEY_PASSWORD")
+                // Sign with both schemes: some stores/devices still check v1.
+                enableV1Signing = true
+                enableV2Signing = true
             }
         }
     }
